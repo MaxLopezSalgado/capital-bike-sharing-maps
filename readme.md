@@ -20,15 +20,15 @@ The following technologies were utilized in this project:
 - Geopy
 - Folium
 
-To gain a comprehensive overview of the project, please refer to the detailed presentation created on [Google Drive](Google_Drive_Link), which covers the analysis methodologies, results, and conclusions.
+To gain a comprehensive overview of the project, please refer to the detailed presentation created on [Google Drive](https://docs.google.com/presentation/d/16Be6PCbYlEYCRZDVwhnmD-bKaGoXuirvMLQARd8zNAk/edit?usp=sharing), which covers the analysis methodologies, results, and conclusions.
 
 ## Visualizations
 In order to provide an interactive and immersive experience, the HTML maps generated from the analysis have been deployed in a separate repository. These visualizations offer valuable insights into the geographical aspects of the Capital Bikeshare data.
 
 You can access the deployed maps by following these links:
 - [Index with all maps](https://capital-bike-sharing-maps.netlify.app)
-- [Map 1 - Heatmap of the most used start stations](heatmap-start-stations/topStart.html)
-- [Map 2 - Heatmap of the most used end stations](heatmap-end-stations/topEnd.html)
+- [Map 1 - Heatmap of the most used start stations](https://capital-bike-sharing-maps.netlify.app/heatmap-start-stations/topstart)
+- [Map 2 - Heatmap of the most used end stations](https://capital-bike-sharing-maps.netlify.app/heatmap-end-stations/topend)
 - [Map 3 - Map of the top 10 most used routes](https://capital-bike-sharing-maps.netlify.app/top-10-used-routes/topused)
 
 
