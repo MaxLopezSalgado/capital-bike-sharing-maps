@@ -1,17 +1,16 @@
-# Capital Bikeshare Data Analysis and Geographical Data Analysis Project
+# Capital Bikeshare Geographical Data Analysis Repository
 
 ## Description
-This project focuses on analyzing datasets provided by Capital Bikeshare, a bike-sharing company. Through a series of data wrangling, data cleaning, exploratory data analysis (EDA), and machine learning (ML) techniques, valuable insights were extracted from the data.
+Welcome to the Capital Bikeshare Geographical Data Analysis repository! This project is dedicated to the analysis of datasets provided by Capital Bikeshare, a prominent bike-sharing company. Through meticulous data wrangling, data cleaning, exploratory data analysis (EDA), and advanced machine learning (ML) techniques, this project extracts invaluable insights from the data.
 
 ## Key Highlights
-- Conducted thorough data wrangling and data cleaning to ensure data quality and accuracy.
-- Performed exploratory data analysis (EDA) to uncover patterns, trends, and relationships within the dataset.
-- Utilized machine learning algorithms to develop predictive models and gain deeper insights.
-- Created visually appealing and informative geographical visualizations to better understand the data and consumer behavior.
-
-By applying these techniques, we gained valuable insights into bike usage patterns, user preferences, and other important factors that can drive business decisions for Capital Bikeshare.
+- Thorough data wrangling and data cleaning techniques are employed to ensure high data quality and accuracy.
+- Exploratory data analysis (EDA) uncovers patterns, trends, and relationships within the dataset, shedding light on various aspects of bike-sharing behavior.
+- Utilization of machine learning algorithms enables the development of predictive models, contributing to deeper insights and more accurate predictions.
+- The project also presents visually appealing and informative geographical visualizations, providing enhanced understanding of the data and consumer behavior.
 
 ## Technologies Used
+The following technologies were utilized in this project:
 - Python
 - Pandas
 - NumPy
@@ -21,8 +20,21 @@ By applying these techniques, we gained valuable insights into bike usage patter
 - Geopy
 - Folium
 
-To get a comprehensive overview of the project, please check out the [presentation](https://docs.google.com/presentation/d/16Be6PCbYlEYCRZDVwhnmD-bKaGoXuirvMLQARd8zNAk/edit?usp=sharing) I created on Google Drive.
+To gain a comprehensive overview of the project, please refer to the detailed presentation created on [Google Drive](Google_Drive_Link), which covers the analysis methodologies, results, and conclusions.
 
-To ensure a well-structured project, I have deployed the HTML maps I created for this portfolio in a separate repository. You can access the deployed maps by following this [repository](https://github.com/MaxLopezSalgado/capital-bike-sharing-maps).
+## Visualizations
+In order to provide an interactive and immersive experience, the HTML maps generated from the analysis have been deployed in a separate repository. These visualizations offer valuable insights into the geographical aspects of the Capital Bikeshare data.
 
-This project serves as a demonstration of my data analysis skills and showcases my ability to extract meaningful insights from complex datasets.
+You can access the deployed maps by following these links:
+- [Index with all maps](https://capital-bike-sharing-maps.netlify.app)
+- [Map 1 - Heatmap of the most used start stations](heatmap-start-stations/topStart.html)
+- [Map 2 - Heatmap of the most used end stations](heatmap-end-stations/topEnd.html)
+- [Map 3 - Map of the top 10 most used routes](https://capital-bike-sharing-maps.netlify.app/top-10-used-routes/topused)
+
+
+Please utilize the provided links to explore the interactive maps and gain a deeper understanding of the geographical aspects analyzed in this project.
+
+## Project Demonstration
+The Capital Bikeshare Geographical Data Analysis project serves as a demonstration of advanced data analysis skills, showcasing the ability to extract meaningful insights from complex datasets. By implementing various analytical techniques, this project uncovers bike usage patterns, user preferences, and other crucial factors that can inform strategic business decisions for Capital Bikeshare.
+
+Feel free to explore the repository, delve into the analysis, and leverage the insights gained to drive data-informed decision-making in the bike-sharing industry.
