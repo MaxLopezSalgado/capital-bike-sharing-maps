@@ -5,14 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bike Sharing Maps</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://cdn.getyourguide.com/img/tour/6335f23449228.jpeg/98.jpg') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        header {
+            text-align: center;
+            margin-top: 50px;
+            color: #fff;
+            font-size: 36px;
+            background-color: rgba(128, 128, 128, 0.3);
+            padding: 10px;
+            text-shadow: 2px 2px 2px #000;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 18px;
+            text-shadow: 1px 1px 1px #000;
+        }
+
+        nav a:hover {
+            color: #ff7f50;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <div>
-        <nav>
-            <a href="./heatmap-start-stations/topStart.html">Heatmap of the start Stations</a>
-            <a href="./heatmap-end-stations/topEnd.html">Heatmap of the end Stations</a>
-            <a href="./top-10-used-routes/topUsed.html">Top 10 used Routes</a>
-        </nav>
-    </div>
+    <header>
+        <h1>Bike Sharing Maps</h1>
+    </header>
+    <nav>
+        <a href="./heatmap-start-stations/topStart.html"><span>Heatmap of Start Stations</span></a>
+        <a href="./heatmap-end-stations/topEnd.html"><span>Heatmap of End Stations</span></a>
+        <a href="./top-10-used-routes/topUsed.html"><span>Top 10 Most Used Routes</span></a>
+        <a href="https://github.com/MaxLopezSalgado"><span>My GitHub</span></a>
+        <a href="https://www.linkedin.com/in/maximiliano-lopez-salgado/"><span>My LinkedIn</span></a>
+    </nav>
+    <footer>
+        <p>A project dedicated to bike sharing geographical data analysis</p>
+    </footer>
 </body>
 </html>
